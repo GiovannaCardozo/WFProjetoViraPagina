@@ -15,6 +15,12 @@ namespace Projeto_ViraPagina.View
         public Principal()
         {
             InitializeComponent();
+
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
+
+            textPesquisa.PlaceholderText = "Pesquisar";
         }
 
         private void Principal_Load(object sender, EventArgs e)

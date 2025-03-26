@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto_ViraPagina.View
 {
-    public partial class PrincipalInstrumentos: Form
+    public partial class PrincipalPenalidade: Form
     {
-        public PrincipalInstrumentos()
+        public PrincipalPenalidade()
         {
             InitializeComponent();
 

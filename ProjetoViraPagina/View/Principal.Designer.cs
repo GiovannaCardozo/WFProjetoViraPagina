@@ -153,7 +153,7 @@
             textPesquisa.ForeColor = Color.FromArgb(130, 119, 106);
             textPesquisa.Location = new Point(369, 79);
             textPesquisa.Name = "textPesquisa";
-            textPesquisa.Size = new Size(318, 19);
+            textPesquisa.Size = new Size(275, 19);
             textPesquisa.TabIndex = 7;
             // 
             // labelNomeTomador

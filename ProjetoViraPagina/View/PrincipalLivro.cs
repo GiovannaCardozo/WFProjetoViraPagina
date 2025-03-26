@@ -15,6 +15,10 @@ namespace Projeto_ViraPagina.View
         public PrincipalLivro()
         {
             InitializeComponent();
+
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
 
         private void btnVoltar_Click(object sender, EventArgs e)

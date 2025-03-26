@@ -10,15 +10,13 @@ using System.Windows.Forms;
 
 namespace Projeto_ViraPagina.View
 {
-    public partial class PrincipalInstrumentos: Form
+    public partial class PrincipalReserva : Form
     {
-        public PrincipalInstrumentos()
+        public PrincipalReserva()
         {
             InitializeComponent();
-
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
+
+        
     }
 }

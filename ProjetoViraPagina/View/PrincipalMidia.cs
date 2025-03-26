@@ -15,6 +15,10 @@ namespace Projeto_ViraPagina.View
         public PrincipalMidia()
         {
             InitializeComponent();
+
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.FormBorderStyle = FormBorderStyle.FixedSingle;
         }
     }
 }
